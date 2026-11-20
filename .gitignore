@@ -6,9 +6,10 @@ __pycache__/
 venv/
 .venv/
 
-# Data - keep original and processed datasets private
-data/raw/
-data/processed/
+# Ignore only temporary/private files
+data/raw/triboelectric/private/
+*.opju
+*.opj
 
 # Origin project files
 *.opju
